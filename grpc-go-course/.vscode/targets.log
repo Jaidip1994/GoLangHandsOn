@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Tue Jun 21 11:23:21 2022
+# Make data base, printed on Wed Jun 22 10:34:10 2022
 
 # Variables
 
@@ -25,6 +25,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
+ 
 CURDIR := /Users/jaidip/Documents/GoTutorial/GoLangHandsOn/grpc-go-course
 # makefile (from `Makefile', line 19)
 SHELL := bash
@@ -34,7 +35,6 @@ VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupp
 _ = /usr/bin/make
 # makefile (from `Makefile', line 20)
 SHELL_VERSION = $(shell echo $$BASH_VERSION)
- 
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
@@ -43,10 +43,14 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
 # makefile (from `Makefile', line 41)
 project := greet calculator blog
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/w2/33_cqtws5c1gntkmcmjf4bsm0000gn/T/vscode-ipc-6aab9908-cdd9-49f3-b12c-32d81710cbf4.sock
+P9K_SSH = 0
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/w2/33_cqtws5c1gntkmcmjf4bsm0000gn/T/vscode-ipc-41495fad-4cce-40eb-a599-8e0435427059.sock
 # makefile (from `Makefile', line 30)
 PACKAGE = $(shell head -1 go.mod | awk '{print $$2}')
 # environment
@@ -54,7 +58,11 @@ VSCODE_CWD = /
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # environment
-PATH = /usr/local/go/bin:/usr/bin:/bin:/usr/sbin:/sbin
+PATH = /Users/jaidip/miniforge3/bin:/Users/jaidip/miniforge3/condabin:/Users/jaidip/.pyenv/shims:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 1)
+BIN_DIR = bin
 # environment
 GOPATH = /Users/jaidip/go
 # makefile (from `Makefile', line 31)
@@ -70,9 +78,11 @@ CLIENT_DIR = client
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.a7JIKder8f/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.4nz4krOH70/Listeners
 # automatic
 %F = $(notdir $%)
+# environment
+CONDA_EXE = /Users/jaidip/miniforge3/bin/conda
 # makefile (from `Makefile', line 35)
 SERVER_BIN = ${SERVER_DIR}
 # makefile (from `Makefile', line 2)
@@ -84,9 +94,15 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/jaidip/Documents/GoTutorial/GoLangHandsOn/grpc-go-course
 # environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
+MANPATH = /opt/homebrew/share/man::
+# environment
 GOMODCACHE = /Users/jaidip/go/pkg/mod
+# environment
+PYENV_SHELL = zsh
 # environment
 HOME = /Users/jaidip
 # default
@@ -100,9 +116,15 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # makefile (from `Makefile', line 34)
 RM_RF_CMD = ${RM_F_CMD} -r
 # environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+ZSH = /Users/jaidip/.oh-my-zsh
+# environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
+# environment
+CONDA_DEFAULT_ENV = base
 # environment
 XPC_FLAGS = 0x0
 # default
@@ -119,8 +141,12 @@ USER = jaidip
 .DEFAULT_GOAL := help
 # makefile (from `Makefile', line 21)
 UNAME := Darwin
+# environment
+LESS = -R
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
 # default
 MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
@@ -141,10 +167,14 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 XPC_SERVICE_NAME = application.com.microsoft.VSCode.5530868.5530874
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # makefile (from `Makefile', line 3)
@@ -155,14 +185,18 @@ COMMAND_MODE = unix2003
 MAKEFILES := 
 # automatic
 <F = $(notdir $<)
-# makefile (from `Makefile', line 1)
-BIN_DIR = bin
+# environment
+PAGER = less
 # environment
 LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /Users/jaidip/miniforge3/bin/python
 # automatic
 ^F = $(notdir $^)
 # default
 SUFFIXES := 
+# environment
+_CE_M = 
 # environment
 MAKELEVEL := 0
 # makefile (from `Makefile', line 36)
@@ -170,11 +204,15 @@ CLIENT_BIN = ${CLIENT_DIR}
 # makefile (from `Makefile', line 33)
 RM_F_CMD = rm -f
 # environment
-LANG = C
+CONDA_PREFIX = /Users/jaidip/miniforge3
 # environment
-VSCODE_PID = 8561
+VSCODE_PID = 17885
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
 # variable set hash-table stats:
-# Load=80/1024=8%, Rehash=0, Collisions=2/132=2%
+# Load=99/1024=10%, Rehash=0, Collisions=6/151=4%
 
 # Pattern-specific Variable Values
 
@@ -182,9 +220,9 @@ VSCODE_PID = 8561
 
 # Directories
 
-# . (device 16777232, inode 4971092): 9 files, no impossibilities.
+# . (device 16777231, inode 4971092): 10 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,6 +328,7 @@ clean_calculator:
 	
 
 about:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -337,7 +376,6 @@ greet:
 clean_blog:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 72):
 	${RM_F_CMD} blog/${PROTO_DIR}/*.pb.go
@@ -368,6 +406,6 @@ blog:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Tue Jun 21 11:23:21 2022
+# Finished Make data base on Wed Jun 22 10:34:10 2022
 
  

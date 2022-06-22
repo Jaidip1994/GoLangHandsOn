@@ -83,3 +83,7 @@ about: ## Display info related to the build
 
 help: ## Show this help
 	@${HELP_CMD}
+
+evans:
+# https://github.com/ktr0731/evans
+	evans --host localhost --port 50051 --reflection repl
